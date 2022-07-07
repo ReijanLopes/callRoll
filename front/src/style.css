@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(246, 246, 255);
+}
+
+.container{
+    max-width: 400px;
+    width: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createStudent{
+    height: 300px;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    padding-left: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.buttonCreat, .Button_save{
+    padding: 7px 12px;
+}
+
+.TdButton{
+    width: 48px;
+}
+
+.Button_CallRoll{
+    width: 100%;
+    height: 30px;
+}
+
+.P{
+    background-color: green;
+}
+
+.F{
+    background-color: red;
+}
+
